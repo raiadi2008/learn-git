@@ -8,7 +8,11 @@ import (
 const port = ":3000"
 
 func Home(w http.ResponseWriter, r *http.Request) {
+	// this code is changes
+}
 
+func SumNum(a, b int) int {
+	return a + b
 }
 
 func About(w http.ResponseWriter, r *http.Request) {
