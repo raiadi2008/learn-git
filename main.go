@@ -15,6 +15,10 @@ func SumNum(a, b int) int {
 	return a + b
 }
 
+func multnum(a, b int) int {
+	return a * b
+}
+
 func About(w http.ResponseWriter, r *http.Request) {
 
 }
