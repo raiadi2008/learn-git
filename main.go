@@ -11,6 +11,10 @@ func Home(w http.ResponseWriter, r *http.Request) {
 
 }
 
+func multnum(a, b int) int {
+	return a * b
+}
+
 func About(w http.ResponseWriter, r *http.Request) {
 
 }
